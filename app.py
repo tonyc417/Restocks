@@ -39,6 +39,6 @@ class TwitterBot:
                     time.sleep(60)
 
 
-ed = TwitterBot('Restocks11', 'Subiegang')
+ed = TwitterBot('', '')
 ed.login()
 ed.like_tweet('stocks')
