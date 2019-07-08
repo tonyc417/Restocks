@@ -16,7 +16,8 @@ class PalaceBot:
             bot.get(link)
             try:
                 bot.find_element_by_class_name('cart-btn').click()
-                time.sleep(10)
+                bot.find_element_by_class_name('hidden-phone').click()
+                bot.find_element_by_class_name('shopping-btn').click()
             except Exception as ex:
                 time.sleep(60)
 
